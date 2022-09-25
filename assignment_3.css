@@ -1,0 +1,183 @@
+body {
+    margin: 0px;
+}
+
+.main_section {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.logo_div img {
+    height: 40px;
+    width: 90px;
+    margin-left: 40px;
+    margin-top: 6px;
+}
+
+.menu_div ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+.menu_div ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #5243C0;
+}
+
+#first_button {
+    margin-top: 10px;
+    margin-right: 20px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #FFD8DB;
+    border: none;
+}
+
+.main_container {
+    display: flex;
+    padding-left: 32px;
+    margin-left:60px ;
+}
+
+.second_container {
+    width: 40%;
+}
+
+.hero_image_section {
+    width: 60%;
+
+}
+
+.hero_image_section img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.box_inline {
+    display: flex;
+
+}
+.saas{
+    display: flex;
+}
+
+.stunning_workspace {
+    font-size: 54px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:300px ;
+}
+
+.box {
+    border: solid #5243C0;
+    background-color: #5243C0;
+    height: 10px;
+    width: 10px;
+}
+.writing_section {
+    width: 330px;
+}
+
+.new_account_container {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.new_account_container button {
+    border: none;
+    background: transparent;
+}
+
+#second_button {
+    margin-top: 10px;
+    height: 60px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    background-color: #5243C0;
+    color: white;
+    display: inline;
+    margin-bottom: 20PX;
+}
+
+.arrow {
+    display: inline;
+}
+
+.tab_1 {
+    display: flex;
+    height: 40px;
+    width: 320px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+
+}
+
+.tab_1:hover {
+    background-color: #fff;
+    box-shadow: 3px 3px 2px #ddd, -3px -3px 2px #ddd;
+}
+
+.tab_1 ul {
+    padding-left: 0;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+
+}
+
+.tab_1 ul .category {
+    width: 115px;
+}
+
+.last_section ul li {
+    display: inline-block;
+}
+
+#small_box1 {
+
+    background-color: pink;
+    height: 1px;
+    width: 25px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+#small_box2 {
+
+    background-color: red;
+    height: 1px;
+    width: 25px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#small_box3 {
+
+    background-color: green;
+    height: 1px;
+    width: 25px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#small_box4 {
+
+    background-color: yellow;
+    height: 1px;
+    width: 25px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+}
